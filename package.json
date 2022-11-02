@@ -1,0 +1,32 @@
+{
+  "name": "gt-back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.30.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "http-errors": "^2.0.0",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1",
+    "sync-request": "^6.1.0",
+    "uid2": "^1.0.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  }
+}
